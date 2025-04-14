@@ -32,7 +32,7 @@ export default function page() {
     <div>
       <div className="max-w-[1220px] w-full m-auto">
         <section className="flex justify-between border-b-[1px] p-2 border-[#dee2e6]">
-          <div className="flex gap-2 px-12">
+          <div className="flex gap-2 lg:px-12">
             <div>
               <a
                 className="text-[#484848] font-bold text-[11px] cursor-pointer border-b-[1px] border-transparent hover:border-[#484848] transition-all"
@@ -95,7 +95,7 @@ export default function page() {
             ЧУХАЛ ХОЛБООС
           </div>
         </section>
-        <section className="flex lg:px-12 pb-5 justify-between flex-wrap text-[#07158f]">
+        <section className="flex lg:px-12 px-2 pb-5 justify-between flex-wrap text-[#07158f]">
           <a
             href="https://www.must.edu.mn/mn/"
             className="text-[12px] font-bold"
