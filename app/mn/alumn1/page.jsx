@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 export default function page() {
-  const [modal, setModal] = useState(false);
-  const [modal2, setModal2] = useState(true);
+  const [modal, setModal] = useState(true);
+  const [modal2, setModal2] = useState(false);
   const [value, setValue] = useState("");
 
   const handleChange = (e) => {
