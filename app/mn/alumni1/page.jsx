@@ -96,7 +96,7 @@ export default function page() {
             </div>
           </div>
         </section>
-        <section className="flex lg:px-12 justify-between max-sm:justify-end p-4 items-center max-sm:flex-wrap">
+        <section className="flex lg:px-12 justify-between max-sm:justify-end p-4 py-8 items-center max-sm:flex-wrap">
           <img
             className="w-[370px] max-sm:w-[100%]"
             src="https://www.must.edu.mn/static/assets/img/logo/logo-must.png"
@@ -106,8 +106,17 @@ export default function page() {
             ЧУХАЛ ХОЛБООС
           </div>
         </section>
-        <section className="flex px-12 max-sm:justify-center gap-4 ">
-          <div className="bg-[#f3f3f3] p-2 max-sm:w-full max-w-[330px]">
+        <section className="flex lg:px-12 pb-5 justify-between text-[#07158f]">
+          <a className="text-[12px] font-bold">БИДНИЙ ТУХАЙ</a>
+          <a className="text-[12px] font-bold">ЗАСАГЛАЛ</a>
+          <a className="text-[12px] font-bold">СУРГАЛТ</a>
+          <a className="text-[12px] font-bold">ЭРДЭМ ШИНЖИЛГЭЭ, ИННОВАЦИ</a>
+          <a className="text-[12px] font-bold">ОЮУТАН</a>
+          <a className="text-[12px] font-bold">ХАМТЫН АЖИЛЛАГАА</a>
+          <a className="text-[12px] font-bold">САНХҮҮ, ХӨРӨНГӨ ОРУУЛАЛТ</a>
+        </section>
+        <section className="flex lg:px-12 px-4 max-md:justify-center max-md:flex-col gap-4 ">
+          <div className="bg-[#f3f3f3] p-2 max-sm:w-full max-w-[600px]">
             <form className="flex gap-2 mt-3 flex-wrap mb-4">
               <div className="flex gap-1">
                 <input
@@ -163,80 +172,92 @@ export default function page() {
               Хайх
             </div>
           </div>
-          {modal && (
-            <div className="w-full flex flex-col">
-              <table className="w-full border-collapse">
-                <tbody>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Овог:</td>
-                    <td className="border border-[#dee2e6] p-2">ЦЭЕННЯМБУУ</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Нэр:</td>
-                    <td className="border border-[#dee2e6] p-2">ХАТАНБААТАР</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Регистр:</td>
-                    <td className="border border-[#dee2e6] p-2">ФА89081814</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Сургууль:</td>
-                    <td className="border border-[#dee2e6] p-2">
-                      ШИНЖЛЭХ УХААН ТЕХНОЛОГИЙН ИХ СУРГУУЛЬ
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Мэргэжил:</td>
-                    <td className="border border-[#dee2e6] p-2">
-                      ИРГЭНИЙ БА ҮЙЛДВЭРИЙН БАРИЛГА
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">
-                      Дипломын дугаар:
-                    </td>
-                    <td className="border border-[#dee2e6] p-2">D201122177</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Зэрэг:</td>
-                    <td className="border border-[#dee2e6] p-2">БАКАЛАВР</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Голч дүн:</td>
-                    <td className="border border-[#dee2e6] p-2">3.0</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-[#dee2e6] p-2">Төгссөн он:</td>
-                    <td className="border border-[#dee2e6] p-2">2011</td>
-                  </tr>
-                </tbody>
-              </table>
-              <div>
-                <p className="my-3">Байгууллагын нэр</p>
-                <input
-                  placeholder="Байгууллага"
-                  className="border-[1px] p-1 max-w-[350px] bg-white w-full border-[#ced4da]"
-                  type="text"
-                />
-                <p className="text-[#dc3545] text-[11px] mt-2">
-                  Тодорхойлолт гаргаж өгөх байгууллагын нэрийг зөв алдаагүй
-                  оруулна уу!!!
-                </p>
-                <div
-                  onClick={handlepdf}
-                  className="border-1 cursor-pointer mb-1 mt-4 py-[6px] px-[12px] inline-block font-bold text-[#07158f] border-[#6c757d] rounded-[.25rem]"
-                >
-                  Хэвлэх
+          <div>
+            {modal && (
+              <div className="w-full flex flex-col max-md:mb-6">
+                <table className="w-full border-collapse">
+                  <tbody>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Овог:</td>
+                      <td className="border border-[#dee2e6] p-2">
+                        ЦЭЕННЯМБУУ
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Нэр:</td>
+                      <td className="border border-[#dee2e6] p-2">
+                        ХАТАНБААТАР
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Регистр:</td>
+                      <td className="border border-[#dee2e6] p-2">
+                        ФА89081814
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Сургууль:</td>
+                      <td className="border border-[#dee2e6] p-2">
+                        ШИНЖЛЭХ УХААН ТЕХНОЛОГИЙН ИХ СУРГУУЛЬ
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Мэргэжил:</td>
+                      <td className="border border-[#dee2e6] p-2">
+                        ИРГЭНИЙ БА ҮЙЛДВЭРИЙН БАРИЛГА
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">
+                        Дипломын дугаар:
+                      </td>
+                      <td className="border border-[#dee2e6] p-2">
+                        D201122177
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Зэрэг:</td>
+                      <td className="border border-[#dee2e6] p-2">БАКАЛАВР</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">Голч дүн:</td>
+                      <td className="border border-[#dee2e6] p-2">3.0</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-[#dee2e6] p-2">
+                        Төгссөн он:
+                      </td>
+                      <td className="border border-[#dee2e6] p-2">2011</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div>
+                  <p className="my-3">Байгууллагын нэр</p>
+                  <input
+                    placeholder="Байгууллага"
+                    className="border-[1px] p-1 max-w-[350px] bg-white w-full border-[#ced4da]"
+                    type="text"
+                  />
+                  <p className="text-[#dc3545] text-[11px] mt-2">
+                    Тодорхойлолт гаргаж өгөх байгууллагын нэрийг зөв алдаагүй
+                    оруулна уу!!!
+                  </p>
+                  <div
+                    onClick={handlepdf}
+                    className="border-1 cursor-pointer mb-1 mt-4 py-[6px] px-[12px] inline-block font-bold text-[#07158f] border-[#6c757d] rounded-[.25rem]"
+                  >
+                    Хэвлэх
+                  </div>
+                  <p className="text-[#dc3545] text-[14px]">
+                    Гар утаснаас хэвлэж авахдаа google chrome хөтөч ашиглана уу
+                    !!!
+                  </p>
                 </div>
-                <p className="text-[#dc3545] text-[14px]">
-                  Гар утаснаас хэвлэж авахдаа google chrome хөтөч ашиглана уу
-                  !!!
-                </p>
               </div>
-            </div>
-          )}
+            )}
+          </div>
           {modal2 && (
-            <div className="w-[60%] max-sm:w-full">
+            <div className="w-[60%] max-md:hidden">
               <h1 className=" text-center">ЗАРЛАЛ</h1>
               <p className="text-[#212529]">
                 2002 оноос өмнөх ШУТИС, ТИС, ПДС төгссөн төгсөгч нар БШУЯ-ны
