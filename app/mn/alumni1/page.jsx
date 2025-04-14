@@ -658,6 +658,78 @@ export default function page() {
           </div>
         </div>
       </section>
+      <section className="bg-[#ffc20d]">
+        <div className="max-w-[1220px] w-full m-auto flex max-md:flex-wrap">
+          <div className="flex mx-12 py-8 max-w-[290px] justify-between gap-6  text-[#07158f]">
+            <div>
+              <h2 className="text-[16px] font-bold">МАНАЙ ХАЯГ</h2>
+              <p className="text-[13px]">
+                Шинжлэх Ухаан Технологийн Их Сургууль 8-р хороо, Бага тойруу,
+                Сүхбаатар дүүрэг Улаанбаатар, Монгол улс 14191
+              </p>
+              <p className="text-[13px]">Ш/х : 46/520</p>
+              <p className="text-[13px]">Утас : (976)-11-324590</p>
+            </div>
+          </div>
+          <div className="flex mx-12 py-8 justify-between gap-6  text-[#07158f]">
+            <div>
+              <h2 className="text-[16px] font-bold">
+                МАНАЙ СҮЛЖЭЭНД НЭГДЭЭРЭЙ
+              </h2>
+              <h2 className="text-[16px] font-bold">
+                МЭДЭЭ ХҮЛЭЭН АВАХ И-МЭЙЛ:
+              </h2>
+              <p className="text-[13px]">news@must.edu.mn</p>
+            </div>
+          </div>
+          <div className="flex mx-12 py-8 flex-col gap-6  text-[#07158f]">
+            <div className="flex gap-4 items-center">
+              <img
+                className="w-[60px] h-[62px]"
+                src="https://www.must.edu.mn/static/assets/img/logo/suld.png"
+                alt=""
+              />
+              <h2 className="text-[16px] font-bold">
+                МАНАЙ СҮЛЖЭЭНД НЭГДЭЭРЭЙ
+              </h2>
+            </div>
+            <div className="flex gap-4 items-center">
+              <img
+                className="w-[60px] h-[62px]"
+                src="https://www.must.edu.mn/static/assets/img/logo/atg_1.png"
+                alt=""
+              />
+              <div className="flex flex-col">
+                <h2 className="text-[16px] font-bold">
+                  АВИЛГАТАЙ ТЭМЦЭХ ГАЗАР
+                </h2>
+                <p>ШУДАРГА НИЙГМИЙН ТӨЛӨӨ ХАМТДАА</p>
+              </div>
+            </div>
+            <div className="flex gap-4 items-center">
+              <img
+                className="w-[60px] h-[62px]"
+                src="https://www.must.edu.mn/static/assets/img/logo/atg_1.png"
+                alt=""
+              />
+              <div className="flex flex-col">
+                <h2 className="text-[16px] font-bold">
+                  ХӨРӨНГӨ, ОРЛОГЫН МЭДҮҮЛЭГ
+                </h2>
+                <p>ХУВИЙН АШИГ СОНИРХОЛЫН МЭДҮҮЛЭГ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#07158f]">
+        <div className="max-w-[1220px] pt-5 pb-7 w-full m-auto flex justify-center text-white">
+          <p className="px-3">
+            © 2005-2025 Монгол Улсын Шинжлэх Ухаан Технологийн Их Сургууль,
+            Мэдээллийн технологийн төв
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
