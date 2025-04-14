@@ -13,8 +13,8 @@ const userInfo = {
   graduationYear: "2011",
 };
 export default function page() {
-  const [modal, setModal] = useState(false);
-  const [modal2, setModal2] = useState(true);
+  const [modal, setModal] = useState(true);
+  const [modal2, setModal2] = useState(false);
   const [value, setValue] = useState("");
 
   const handleChange = (e) => {
@@ -107,25 +107,46 @@ export default function page() {
           </div>
         </section>
         <section className="flex lg:px-12 pb-5 justify-between text-[#07158f]">
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             БИДНИЙ ТУХАЙ
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             ЗАСАГЛАЛ
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             СУРГАЛТ
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             ЭРДЭМ ШИНЖИЛГЭЭ, ИННОВАЦИ
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             ОЮУТАН
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             ХАМТЫН АЖИЛЛАГАА
           </a>
-          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+          <a
+            href="https://www.must.edu.mn/mn/"
+            className="text-[12px] font-bold"
+          >
             САНХҮҮ, ХӨРӨНГӨ ОРУУЛАЛТ
           </a>
         </section>
@@ -260,7 +281,13 @@ export default function page() {
                     onClick={handlepdf}
                     className="border-1 cursor-pointer mb-1 mt-4 py-[6px] px-[12px] inline-block font-bold text-[#07158f] border-[#6c757d] rounded-[.25rem]"
                   >
-                    Хэвлэх
+                    <a
+                      href="/report.pdf"
+                      download="report.pdf"
+                      title="Download report PDF"
+                    >
+                      Хэвлэх
+                    </a>
                   </div>
                   <p className="text-[#dc3545] text-[14px]">
                     Гар утаснаас хэвлэж авахдаа google chrome хөтөч ашиглана уу
