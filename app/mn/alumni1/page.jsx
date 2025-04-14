@@ -47,7 +47,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] font-bold text-[11px] cursor-pointer border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 МЭДЭЭ
               </a>
@@ -55,7 +55,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 ЗАРЛАЛ
               </a>
@@ -63,7 +63,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 SCIENCE FM 94.1
               </a>
@@ -73,7 +73,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 ЭЛСЭГЧ
               </a>
@@ -81,7 +81,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 ХОЛБОО БАРИХ
               </a>
@@ -89,7 +89,7 @@ export default function page() {
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
-                href=""
+                href="https://www.must.edu.mn/mn/"
               >
                 АЖЛЫН БАЙР
               </a>
@@ -107,13 +107,27 @@ export default function page() {
           </div>
         </section>
         <section className="flex lg:px-12 pb-5 justify-between text-[#07158f]">
-          <a className="text-[12px] font-bold">БИДНИЙ ТУХАЙ</a>
-          <a className="text-[12px] font-bold">ЗАСАГЛАЛ</a>
-          <a className="text-[12px] font-bold">СУРГАЛТ</a>
-          <a className="text-[12px] font-bold">ЭРДЭМ ШИНЖИЛГЭЭ, ИННОВАЦИ</a>
-          <a className="text-[12px] font-bold">ОЮУТАН</a>
-          <a className="text-[12px] font-bold">ХАМТЫН АЖИЛЛАГАА</a>
-          <a className="text-[12px] font-bold">САНХҮҮ, ХӨРӨНГӨ ОРУУЛАЛТ</a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            БИДНИЙ ТУХАЙ
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            ЗАСАГЛАЛ
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            СУРГАЛТ
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            ЭРДЭМ ШИНЖИЛГЭЭ, ИННОВАЦИ
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            ОЮУТАН
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            ХАМТЫН АЖИЛЛАГАА
+          </a>
+          <a href="https://www.must.edu.mn/mn/" className="text-[12px] font-bold">
+            САНХҮҮ, ХӨРӨНГӨ ОРУУЛАЛТ
+          </a>
         </section>
         <section className="flex lg:px-12 px-4 max-md:justify-center max-md:flex-col gap-4 ">
           <div className="bg-[#f3f3f3] p-2 max-sm:w-full max-w-[600px]">
@@ -299,7 +313,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Нийгэм, хүмүүнлэгийн сургууль
@@ -307,7 +321,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Хүнс, хөнгөн үйлдвэрлэл, дизайны сургууль
@@ -315,7 +329,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Геологи, уул уурхайн сургууль
@@ -323,7 +337,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Мэдээлэл, холбооны технологийн сургууль
@@ -331,7 +345,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Эрчим хүчний инженерчлэлийн сургууль
@@ -339,7 +353,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Механик инженер, тээврийн сургууль
@@ -347,7 +361,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Хэрэглээний шинжлэх ухааны сургууль
@@ -355,7 +369,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Дархан-Уул аймаг дахь технологийн сургууль
@@ -363,7 +377,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     "Эрдэнэт цогцолбор" дээд сургууль
@@ -371,7 +385,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Гадаад хэлний сургууль
@@ -379,7 +393,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Өмнөговь аймаг дахь технологийн дээд сургууль
@@ -387,7 +401,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     ШУТИС-ийн харьяа Ерөнхий боловсролын ахлах сургууль
@@ -395,7 +409,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Менежментийн сургууль
@@ -403,7 +417,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     ШУТИС-Коосэн технологийн коллеж
@@ -411,7 +425,7 @@ export default function page() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="https://www.must.edu.mn/mn/"
                     className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
                   >
                     Ахисан түвшний сургууль
@@ -426,19 +440,19 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Мэндчилгээ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Эрхэм зорилго
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Түүхэн замнал
                 </a>
@@ -449,31 +463,31 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Дvрэм, журам
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Зөвлөлүүд
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   ҮЙЛ АЖИЛЛАГААНЫ ТАЙЛАН
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Чанарын менежмент
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Бүтэц
                 </a>
@@ -484,37 +498,37 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Сургалтын нэгдсэн хуанли
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Хөтөлбөрийн хороо
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Хөтөлбөрийн магадлан итгэмжлэл
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Цахим сургалт
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Сургалтын хөтөлбөр
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   ХАМТАРСАН ХӨТӨЛБӨР
                 </a>
@@ -527,25 +541,25 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   эрдэм шинжилгээний хуанли
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   ШУТИС-ИЙН МУЗЕЙ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Эрдэм шинжилгээний хүрээлэнгүүд
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   ЭРДЭМ ШИНЖИЛГЭЭНИЙ ВЭБ
                 </a>
@@ -556,49 +570,49 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Танилцуулга
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Оюутны хөгжил, төлөвшилд чиглэсэн үйл ажиллагаа
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Нэгдсэн арга хэмжээ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Хурлын танхим, бусад
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Хөдөлмөр эрхлэлт, нийгмийн үйлчилгээ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Оюутны дуу, бүжгийн "ШУТИС-ийн залуус" чуулга
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Оюутны үйлчилгээний нэгдсэн хуанли
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Оюутны гарын авлага
                 </a>
@@ -611,31 +625,31 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Зочин профессор, гадаад багш, мэргэжилтэн
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Гадаад оюутан
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Олон улсын хөтөлбөр, төслүүд
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Багш, оюутнуудад зориулсан мэдээлэл
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Гадаад харилцаа
                 </a>
@@ -646,31 +660,31 @@ export default function page() {
                 </h2>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Нэг кредитийн үнэлгээ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   САНХҮҮ БҮРТГЭЛ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Санхүүгийн тайлан шинжилгээ
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   Санхүүгийн аудитын тайлан
                 </a>
                 <a
                   className="text-[#ffffff8e] text-[11px] hover:text-white hover:underline"
-                  href=""
+                  href="https://www.must.edu.mn/mn/"
                 >
                   ШИЛЭН ДАНСНЫ МЭДЭЭЛЭЛ
                 </a>
