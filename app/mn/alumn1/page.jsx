@@ -12,7 +12,7 @@ export default function page() {
 
   const handlesub = () => {
     const cleanedValue = value.trim().toUpperCase();
-    if (cleanedValue === "D201122177" || cleanedValue === "201122177") {
+    if (cleanedValue === "D201122117" || cleanedValue === "201122117") {
       setTimeout(() => {
         setModal(true);
         setModal2(false);
@@ -236,7 +236,7 @@ export default function page() {
                         Дипломын дугаар:
                       </td>
                       <td className="border border-[#dee2e6] p-2">
-                        D201122177
+                        D1201122117
                       </td>
                     </tr>
                     <tr>
