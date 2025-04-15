@@ -7,12 +7,12 @@ export default function page() {
   const [value, setValue] = useState("");
 
   const handleChange = (e) => {
-    setValue(e.target.value);
+    setValue(e.target.value.toUpperCase());
   };
 
   const handlesub = () => {
     const cleanedValue = value.trim().toUpperCase();
-    if (cleanedValue === "D201122177" || cleanedValue === "201122177") {
+    if (cleanedValue === "D201122117" || cleanedValue === "201122117") {
       setTimeout(() => {
         setModal(true);
         setModal2(false);
@@ -176,6 +176,7 @@ export default function page() {
               </div>
               <input
                 onChange={handleChange}
+                value={value} 
                 type="text"
                 className="border-[1px] p-1 max-w-[350px] bg-white w-full border-[#ced4da]"
               />
@@ -236,7 +237,7 @@ export default function page() {
                         Дипломын дугаар:
                       </td>
                       <td className="border border-[#dee2e6] p-2">
-                        D201122177
+                        D201122117
                       </td>
                     </tr>
                     <tr>
