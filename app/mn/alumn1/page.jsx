@@ -7,7 +7,7 @@ export default function page() {
   const [value, setValue] = useState("");
 
   const handleChange = (e) => {
-    setValue(e.target.value);
+    setValue(e.target.value.toUpperCase());
   };
 
   const handlesub = () => {
@@ -32,7 +32,7 @@ export default function page() {
     <div>
       <div className="max-w-[1220px] w-full m-auto">
         <section className="flex justify-between border-b-[1px] p-2 border-[#dee2e6]">
-          <div className="flex gap-2 px-12">
+          <div className="flex gap-2 lg:px-12 max-sm:flex-wrap">
             <div>
               <a
                 className="text-[#484848] font-bold text-[11px] cursor-pointer border-b-[1px] border-transparent hover:border-[#484848] transition-all"
@@ -58,7 +58,7 @@ export default function page() {
               </a>
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 max-sm:flex-wrap">
             <div>
               <a
                 className="text-[#484848] cursor-pointer font-bold text-[11px] border-b-[1px] border-transparent hover:border-[#484848] transition-all"
@@ -85,7 +85,7 @@ export default function page() {
             </div>
           </div>
         </section>
-        <section className="flex lg:px-12 justify-between max-sm:justify-end p-4 py-8 items-center max-sm:flex-wrap">
+        <section className="flex lg:px-12 justify-between  max-sm:justify-end p-4 py-8 items-center max-sm:flex-wrap">
           <img
             className="w-[370px] max-sm:w-[100%]"
             src="https://www.must.edu.mn/static/assets/img/logo/logo-must.png"
@@ -95,7 +95,7 @@ export default function page() {
             ЧУХАЛ ХОЛБООС
           </div>
         </section>
-        <section className="flex lg:px-12 max-sm:px-4 pb-5 justify-between flex-wrap text-[#07158f]">
+        <section className="flex lg:px-12 px-4 pb-5 lg:justify-between gap-2 flex-wrap text-[#07158f]">
           <a
             href="https://www.must.edu.mn/mn/"
             className="text-[12px] font-bold"
@@ -176,6 +176,7 @@ export default function page() {
               </div>
               <input
                 onChange={handleChange}
+                value={value}
                 type="text"
                 className="border-[1px] p-1 max-w-[350px] bg-white w-full border-[#ced4da]"
               />
@@ -236,7 +237,7 @@ export default function page() {
                         Дипломын дугаар:
                       </td>
                       <td className="border border-[#dee2e6] p-2">
-                        D1201122117
+                        D201122117
                       </td>
                     </tr>
                     <tr>
