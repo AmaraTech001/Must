@@ -95,7 +95,7 @@ export default function page() {
             ЧУХАЛ ХОЛБООС
           </div>
         </section>
-        <section className="flex lg:px-12 pb-5 justify-between flex-wrap text-[#07158f]">
+        <section className="flex lg:px-12 max-sm:px-4 pb-5 justify-between flex-wrap text-[#07158f]">
           <a
             href="https://www.must.edu.mn/mn/"
             className="text-[12px] font-bold"
